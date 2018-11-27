@@ -1,0 +1,15 @@
+.sticky {
+	position: -webkit-sticky;
+	transition: background .3s ease;
+}
+
+.sticky.sticked {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 8px #0000000a;
+}
